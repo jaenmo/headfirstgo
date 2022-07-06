@@ -15,11 +15,10 @@ func main() {
 	scoreSummary("Lamar", 82.2, 95.4, 77.6)
 }
 
-	
 	func scoreSummary(a string, b float64, c float64, d float64) {
 		e := (b+c+d)/3
-		
-	fmt.Printf("%10s | %8s | %8s | %8s | %8s\n",
+	
+		fmt.Printf("%10s | %8.2f | %8.2f | %8.2f | %8.2f\n",
 		 a, b, c, d, e)
 
 	}
