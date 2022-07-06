@@ -25,8 +25,17 @@ import "fmt"
 // 	}
 
 func main(){
-	fmt.Println(greet("Jane ", "Doe "))
+max(2, 5)
+fmt.Println("oh")
+
 }
-func greet(fname, lname string) string{
-	return fmt.Sprint(fname, lname)
-}
+func max(num1, num2 int) int {
+ var result int
+
+	if (num1 > num2) {
+	   result = num1
+	} else {
+	   result = num2
+	}
+	return result 
+ }

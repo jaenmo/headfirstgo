@@ -28,6 +28,4 @@ func main() {
 	// "builder", and pass the return value to
 	// "fmt.Println".
 	fmt.Println(builder.String())
-	
-	
 }
