@@ -6,6 +6,6 @@ import ("fmt"
 func main(){
 	broken := ("G# R#ck!")
 	cambio := strings.NewReplacer("#", "o")
-	arreglao := cambio.Replace(broken)
-	fmt.Println(arreglao)
+	fixed := cambio.Replace(broken)
+	fmt.Println(fixed)
 }
