@@ -3,17 +3,11 @@ package main
 import "fmt"
 
 func main(){
-	w1:= 4.2
-	l1:= 3.0
-	fmt.Println(area(w1, l1)/10, "liters needed")
-	fmt.Printf("%.2f liters needed\n", area(w1, l1)/10)
-
-	w2 := 5.2
-	l2 := 3.5
-	fmt.Println(area(w2, l2)/10, "liters needed")
-	fmt.Printf("%.2f liters needed\n", area(w2, l2)/10)
-
+	paintNeeded(4.2, 3.0)
+	paintNeeded(5.2, 3.5)
 }
-func area(w, l float64) float64{
-	return w * l
+func paintNeeded(w, l float64){
+	area := w * l	
+	fmt.Printf("%.2f liters needed\n", area/10)
+
 }
