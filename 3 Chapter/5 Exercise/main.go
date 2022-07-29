@@ -5,8 +5,10 @@ import "fmt"
 func main(){
 	//if we don't use pointers, we don't modify the value
 	amount := 6
-	double(amount)
+	double(&amount)
 	fmt.Println(amount)
+
+	fmt.Println("###########")
 	
 	//We can have pointers of any type
 	var myInt *int
@@ -44,8 +46,23 @@ func main(){
 	fmt.Println(mayInteger)
 	fmt.Println(*mayInteger)
 
+	
+fmt.Println("--------------------")
+	var baba *float64 = createPointer()
+	fmt.Println(baba) 
+	fmt.Println(*baba) 
+	*baba = 13.3
+	fmt.Println(baba) 
+	fmt.Println(*baba)
+
+
+
 }
-func double(number int){
-	number *= 2
+func double(number *int){
+	*number *= 2
 	fmt.Println(number)
+}
+func createPointer() *float64{
+	myFloat := 18.5
+	return &myFloat
 }
