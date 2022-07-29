@@ -13,24 +13,21 @@ func main(){
 	var myStru *struct{}
 	var myInter *interface{}
 
+	fmt.Printf("myInt is %T\n", &myInt)
+	fmt.Printf("mymyStr is %T\n", &myStr)
+	fmt.Printf("myFloa is %T\n", &myFloa)
+	fmt.Printf("myStru is %T\n", &myStru)
+	fmt.Printf("myInter is %T\n", &myInter)
 
+	var myOnt int
+	var myPointerInt *int
+	myPointerInt = &myOnt
+	fmt.Println(myPointerInt)
 
-	fmt.Println(&myInt)
-	fmt.Println(&myStr)
-	fmt.Println(&myFloa)
-	fmt.Println(&myStru)
-	fmt.Println(&myInter)
+	var myPaint int
+	myPainter := &myPaint
+	fmt.Println(myPainter)
 
-
-
-
-
-
-
-
-
-
-	
 }
 func double(number int){
 	number *= 2
