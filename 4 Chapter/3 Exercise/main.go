@@ -14,4 +14,15 @@ func main(){
 		fmt.Println(i, notes[i])
 	}
 	fmt.Println(len(ar))
+
+	fmt.Println("-----------------")
+	var sum int
+	for _, value := range notes{
+		
+		sum += value
+		fmt.Println(sum)
+		fmt.Println(sum/5)
+
+	}
+
 }
