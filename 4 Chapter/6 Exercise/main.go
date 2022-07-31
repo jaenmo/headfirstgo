@@ -1,4 +1,4 @@
-// create an array with the day of the week and print them with the index
+// Check how many times is repeated one number in an array
 
 package main
 
