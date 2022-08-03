@@ -15,12 +15,15 @@ func main() {
 	c := perimeter(6.2, 4.5)
 	total := a + b + c
 	
-	for _, error == nil {
+	for i, error == nil {
 		fmt.Println(fmt.Errorf())
 	} 
 
 	fmt.Printf("You'll need %.2f meters of fencing", total)
 }
 func perimeter (length, width float64) float64{
+	if length || width <0{
+		return fmt.Errorf()
+	}
 	return (2*length) + (2*width) 
 }

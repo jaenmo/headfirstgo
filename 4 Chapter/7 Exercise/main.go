@@ -17,7 +17,7 @@ func main(){
 	var sum int
 
 	for _, number := range numbers{
-		ocurrences [number]++
+		ocurrences[number]++
 	}
 	for number, count := range ocurrences{
 		fmt.Println("The number", number, "is repeated", count, "times")
