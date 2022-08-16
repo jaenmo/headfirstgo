@@ -20,5 +20,5 @@ func main(){
 	// 	sum += count
 	// }
 	//fmt.Println(sum)
-	rintln("niosss")
+	rintln("nios
 }
