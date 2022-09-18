@@ -20,6 +20,11 @@ func main() {
 	ast := time.Now()
 	year := ast.Year()
 	fmt.Println(year)
+
+	fmt.Printf("%.2f\n", 1.988)
+	fmt.Printf("%.2f\n", 1.986)
+	fmt.Printf("%.2f\n", 1.985)
+	fmt.Printf("%.2f", 1.984)
 }
 
 func scoreSummary(a string, b float64, c float64, d float64) {
@@ -27,6 +32,5 @@ func scoreSummary(a string, b float64, c float64, d float64) {
 
 	fmt.Printf("%10s | %8.2f | %8.2f | %8.2f | %8.2f\n",
 		a, b, c, d, e)
-
-	asbgssxfaaasas
+asdas
 }
