@@ -31,8 +31,10 @@ func scoreSummary(a string, b float64, c float64, d float64) {
 	e := (b + c + d) / 3
 
 
+	
 	fmt.Printf("%10s | %8.2f | %8.2f | %8.2f | %8.2f\n",
-		a, b, c, d, e)
+
+	a, b, c, d, e)
 q
 }]
-zss
+zs
