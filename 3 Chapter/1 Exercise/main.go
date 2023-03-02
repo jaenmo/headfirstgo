@@ -34,4 +34,3 @@ func scoreSummary(a string, b float64, c float64, d float64) {
 
 }
 
-1
