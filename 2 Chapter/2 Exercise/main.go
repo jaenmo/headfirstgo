@@ -50,3 +50,4 @@ func main() {
 
 	fmt.Println(name, "gets a", medal, "medal!")
 }
+afes

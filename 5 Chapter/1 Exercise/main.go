@@ -20,5 +20,4 @@ func main(){
 	// 	sum += count
 	// }
 	//fmt.Println(sum)
-	sg5645
 }

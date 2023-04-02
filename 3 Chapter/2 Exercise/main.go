@@ -11,7 +11,6 @@ import (
 // A 5 by 5.2 meter plot
 // A 6.2 by 4.5 meter plot
 
-
 func main() {
 	// YOUR CODE HERE: Call "perimeter" three times.
 	// Add the three return values together, and store the
@@ -33,12 +32,12 @@ func main() {
 
 	fmt.Printf("You'll need %.2f meters of fencing", total)
 }
-func perimeter (length, width float64) (float64, error){
-	if length <0 {
-	return 0, fmt.Errorf("a length of %.2f is invalid\n", length)
+func perimeter(length, width float64) (float64, error) {
+	if length < 0 {
+		return 0, fmt.Errorf("a length of %.2f is invalid\n", length)
 	}
-	if  width <0{
+	if width < 0 {
 		return 0, fmt.Errorf("a width of %.2f is invalid\n", width)
 	}
-	return (2*length) + (2*width), nil
+	return (2 * length) + (2 * width), nil
 }
